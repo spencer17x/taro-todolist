@@ -1,0 +1,35 @@
+.index {
+  border: 1px solid red;
+  padding: 20px;
+  .top {
+    display: flex;
+    height: 80px;
+    .input {
+      outline: none;
+      border: 1px solid #ccc;
+      padding: 0 30px;
+      box-sizing: border-box;
+      font-size: 32px;
+      height: 100%;
+      border-right: 0;
+    }
+    .add {
+      background-color: burlywood;
+      color: #fff;
+      width: 220px;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .del-btn {
+    margin-left: 120px;
+    background-color: #fff;
+    color: burlywood;
+    font-size: 28px;
+    padding: 10px 20px;
+    border: 2px solid burlywood;
+    border-radius: 16px;
+  }
+}
